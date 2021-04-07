@@ -184,12 +184,13 @@ nav{
 
 .home{
     background-color: var(--gray-color);
+    width: 100%;
 }
 .home_container{
     height: calc(100vh - var(--header-height));
 }
 .home_data{
-    padding-top: 6rem;
+    padding-top: 4rem;
 }
 .home_title{
     align-self: center;
@@ -199,13 +200,13 @@ nav{
     margin-bottom: 4rem;
 }
 .home_title span{
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size);
 }
 .home_img{
     position: absolute;
-    right: 0;
+    right: 40px;
     bottom: 0;
-    width: 260px;
+    width: 200px;
 }
 
    /* === Button === */
@@ -361,6 +362,7 @@ nav{
 .newsletter_form{
     display: grid;
     grid-template-columns: 1fr 0.5fr;
+    width: 300px;
 }
 .newsletter_input{
     outline: none;
