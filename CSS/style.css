@@ -190,7 +190,7 @@ nav{
     height: calc(100vh - var(--header-height));
 }
 .home_data{
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 .home_title{
     align-self: center;
@@ -206,7 +206,7 @@ nav{
     position: absolute;
     right: 40px;
     bottom: 0;
-    width: 200px;
+    width: 210px;
 }
 
    /* === Button === */
@@ -244,14 +244,14 @@ nav{
     width: 100px;
 }
 .collection_title{
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size);
     font-weight: var(--font-semi);
     line-height: 1.2;
     margin-bottom: var(--mb-2);
     text-transform: uppercase;
 }
 .collection_subtitle{
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size);
     color: var(--dark-color-lit);
 }
 .collection_view{
@@ -362,13 +362,13 @@ nav{
 .newsletter_form{
     display: grid;
     grid-template-columns: 1fr 0.5fr;
-    width: 300px;
 }
 .newsletter_input{
     outline: none;
     border: none;
     background-color: var(--gray-color);
     padding: 0 1rem;
+    width: 200px;
 }
 
     /* === Sponsors === */ 
