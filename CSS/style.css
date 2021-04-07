@@ -165,7 +165,7 @@ nav{
 }
 .nav_toggle{
     position: absolute;
-    right: 0;
+    right: 2px;
     top: 5px;
     font-size: 2.5rem;
     cursor: pointer;
@@ -206,7 +206,7 @@ nav{
     position: absolute;
     right: 40px;
     bottom: 0;
-    width: 210px;
+    width: 200px;
 }
 
    /* === Button === */
